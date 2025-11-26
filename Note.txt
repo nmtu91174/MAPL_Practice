@@ -6,3 +6,18 @@ React Router Dom: Giúp "đi lại" giữa các trang.
 Axios: Giúp "lấy dữ liệu" từ kho (Server).
 Bootstrap: Giúp "làm đẹp" giao diện.
 npm run dev
+
+GIT
+
+…or create a new repository on the command line
+echo "# MAPL_Practice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nmtu91174/MAPL_Practice.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/nmtu91174/MAPL_Practice.git
+git branch -M main
+git push -u origin main
