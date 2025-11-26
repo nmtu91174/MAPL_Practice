@@ -1,0 +1,8 @@
+cd frontend
+npm create vite@latest frontend -- --template react //nếu không muốn tạo folder thì thay my app = dấu "."
+npm install
+npm install axios react-router-dom bootstrap
+React Router Dom: Giúp "đi lại" giữa các trang.
+Axios: Giúp "lấy dữ liệu" từ kho (Server).
+Bootstrap: Giúp "làm đẹp" giao diện.
+npm run dev

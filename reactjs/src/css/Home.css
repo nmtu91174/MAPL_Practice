@@ -1,0 +1,64 @@
+/* Home.css */
+:root {
+    --beige-bg: #c5a48a;
+    /* Màu nền Hero */
+    --purple-bg: #3a2a45;
+    /* Màu nền Newsletter */
+}
+
+/* 1. Custom Backgrounds */
+.bg-beige {
+    background-color: var(--beige-bg);
+}
+
+.bg-purple {
+    background-color: var(--purple-bg);
+}
+
+/* 2. Hero Section - Xử lý ảnh chồng nhau */
+.hero-section {
+    position: relative;
+    min-height: 600px;
+    /* Chiều cao tối thiểu */
+    overflow: hidden;
+}
+
+.hero-img-left {
+    width: 80%;
+    border-radius: 4px;
+}
+
+.hero-img-right {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+/* 3. News Grid - Hiệu ứng so le */
+.news-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Cột giữa ảnh cao hơn */
+.news-img-tall {
+    height: 400px;
+}
+
+/* 4. Navbar Custom */
+.nav-link-custom {
+    font-weight: 700;
+    color: black !important;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
